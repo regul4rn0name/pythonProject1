@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("6629652190:AAG6NENECmE_fWLMyYffR4sOuGoYbnPygiA", parse_mode=None)  # Replace "YOUR_BOT_TOKEN" with your actual bot token
+bot = telebot.TeleBot("6877931851:AAHIpMInvzR0dTDXhy2PCeucEFojw0PFc9c", parse_mode=None)  # Replace "YOUR_BOT_TOKEN" with your actual bot token
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
 def handle_all_messages(message):
